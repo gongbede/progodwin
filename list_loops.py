@@ -1,4 +1,6 @@
-students = ["Godwin", "John", "Peter", "David"]
+numbers = [ 10, 20, 30, 40]
 
-for student in students:
-    print("Hello", student)
+for number in numbers:
+    print(number * 2)
+    
+

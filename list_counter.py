@@ -6,7 +6,7 @@ for number in range(len(employees)):
     if salaries[number] >= 100000:
         print(employees[number], salaries[number], "High salary")
         high_salary_count = high_salary_count + 1
-        print("Total High Salary", high_salary_count)
 
     else:
         print(employees[number], salaries[number])
+print("Total High Salary", high_salary_count)

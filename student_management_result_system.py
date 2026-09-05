@@ -4,6 +4,16 @@ def calculate_total(scores):
         total = total + scores[number]
     return total
 
+def check_result(score):
+    if score >= 50:
+        return "Passed"
+
+    else:
+        return "Failed" 
+
+
+
+
 students = ["Godwin", "John", "Peter", "David", "Michael"]
 scores = [85, 45, 72, 38, 90]
 
@@ -32,3 +42,5 @@ print(fail_student_count, "Total Failed")
 
 total_scores = calculate_total(scores)
 print("Total Scores:",    total_scores)
+print(check_result(85))
+print(check_result(45))

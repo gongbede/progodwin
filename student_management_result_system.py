@@ -4,8 +4,8 @@ def calculate_total(scores):
         total = total + scores[number]
     return total
 
-def check_result(scores):
-    if scores >= 50:
+def check_result(score):
+    if score >= 50:
         return "Passed"
 
     else:

@@ -5,7 +5,6 @@ def create_ticket():
     }
 
     return ticket
-    return ticket2
-
+    
 result = create_ticket()
 print(result)

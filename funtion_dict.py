@@ -5,6 +5,6 @@ def create_ticket():
     }
 
     return ticket
-    
+
 result = create_ticket()
-print(result)
+print("This is good:", result)

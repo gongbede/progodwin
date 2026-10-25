@@ -1,10 +1,7 @@
-def create_ticket():
-    ticket = {
-    "id": 101,
-    "title": "Login issue"
-    }
+def get_ticket_title():
+    title = "Payment issue"
+    return title
 
-    return ticket
+ticket_title = get_ticket_title()
 
-result = create_ticket()
-print("This is good:", result)
+print(ticket_title)
